@@ -137,3 +137,29 @@ ul {
     color: var(--accent-color);
     transition: 0.2s ease-out;
 }
+
+/* header-section */
+header {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    max-width: 40vw;
+}
+
+.header-left p {
+    margin-top: 20px;
+}
+
+.header-left a {
+    margin-top: 20px;
+}
+
+.header-right img {
+    width: 600px;
+}
