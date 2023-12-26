@@ -210,3 +210,23 @@ header {
     max-width: 30%;
     text-align: center;
 }
+
+/* Big Features Section */
+
+.big-features-section {
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-features-container {
+    gap: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
